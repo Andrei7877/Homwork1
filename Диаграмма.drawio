@@ -1,0 +1,99 @@
+<mxfile host="65bd71144e">
+    <diagram id="90GFq66QxUrQFO5pf4sy" name="Page-1">
+        <mxGraphModel dx="740" dy="107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="w30WxLVSeDFIA2g-8L5U-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w30WxLVSeDFIA2g-8L5U-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="w30WxLVSeDFIA2g-8L5U-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="10" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="w30WxLVSeDFIA2g-8L5U-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="140" as="sourcePoint"/>
+                        <mxPoint x="400" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w30WxLVSeDFIA2g-8L5U-9" target="hS9aPh8RJro8x4o8qKOI-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w30WxLVSeDFIA2g-8L5U-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="w30WxLVSeDFIA2g-8L5U-9" value="строк &amp;lt; чем запросил&amp;nbsp;&lt;br&gt;пользователь (n)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="185" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-1" value="Спрашиваем из скольки строк будет состоять наш массив&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="80" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hS9aPh8RJro8x4o8qKOI-3" target="hS9aPh8RJro8x4o8qKOI-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-3" value="заполняем массив&amp;nbsp;&lt;br&gt;строками" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="195" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-6" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="205" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hS9aPh8RJro8x4o8qKOI-7" target="hS9aPh8RJro8x4o8qKOI-13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="355" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="360" y="380"/>
+                            <mxPoint x="360" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hS9aPh8RJro8x4o8qKOI-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-7" value="В элементе &amp;gt; 3 знаков" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="340" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="275" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hS9aPh8RJro8x4o8qKOI-13" target="hS9aPh8RJro8x4o8qKOI-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-13" value="Обнуляем элемент" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-16" value="Yest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="315" y="355" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hS9aPh8RJro8x4o8qKOI-19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-19" value="Создаем новый массив без обнуленных&amp;nbsp;&lt;br&gt;элементов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="510" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="415" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hS9aPh8RJro8x4o8qKOI-24" target="hS9aPh8RJro8x4o8qKOI-25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-24" value="Печатаем новый массив" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="640" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="hS9aPh8RJro8x4o8qKOI-25" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,4 +1,4 @@
-﻿Console.Write("Введите количество строк, которые хотите ввести: ");
+﻿Console.Write("Введите количество строк, которые хотите ввести: "); 
 int n = Convert.ToInt32(Console.ReadLine());      
 string[] strs = new string[n];           
 for (int i = 0; i < n; i++)
@@ -15,3 +15,5 @@ strs = strs.Where(i => i != null).ToArray();
 Console.WriteLine("Cтроки в которых меньше либо равно три знака:");
 for (int i = 0; i < strs.Length; i++)
  Console.WriteLine(strs [i]);
+
+
