@@ -14,4 +14,4 @@ strs[i] = null;
 strs = strs.Where(i => i != null).ToArray();
 Console.WriteLine("Cтроки в которых меньше либо равно три знака:");
 for (int i = 0; i < strs.Length; i++)
-
+ Console.WriteLine(strs [i]);
